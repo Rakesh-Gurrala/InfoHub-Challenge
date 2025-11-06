@@ -9,8 +9,9 @@ services:
       - key: WEATHER_API_KEY
         value: 66f70c3969a272ed5f7963f46cb5ebdf
 
-  - type: static
+  - type: web
     name: infohub-client
+    env: static
     rootDir: client
     buildCommand: npm run build
     staticPublishPath: dist
