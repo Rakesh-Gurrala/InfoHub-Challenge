@@ -1,0 +1,14 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+
+# Environment variables
+.env
+
+# OS/system files
+.DS_Store
+
+# Vercel/Render build files
+.vercel

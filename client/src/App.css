@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://ik.imagekit.io/RakeshGurrala/Gemini_Generated_Image_yby0ydyby0ydyby0.png?updatedAt=1762418848326");
+  background-size: cover;        /* Make image cover full screen */
+  background-position: center;     /* Center the image */
+  background-repeat: no-repeat;    /* Don’t repeat */
+  background-attachment: fixed;    /* Keep background fixed when scrolling */
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10px;
+  }
+}
